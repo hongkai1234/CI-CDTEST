@@ -28,7 +28,7 @@ if __name__ == '__main__':
                 sys.exit(0)
                 
             status = fetch_status()
-            print(f"目前連線狀態碼: {status}")
+            print(f"連線狀態: {status}")
             time.sleep(3)
     except KeyboardInterrupt:
         print("程式手動終止")
